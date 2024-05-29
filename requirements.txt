@@ -1,0 +1,6 @@
+discord.py
+python-dotenv
+giphy_client
+requests
+pybaseball
+google-generativeai
