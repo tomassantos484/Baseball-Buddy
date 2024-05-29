@@ -199,4 +199,13 @@ async def funfact(interaction: discord.Interaction):
     response = model.generate_content("You are an expert baseball historian who knows the game of baseball in and out. Generate a fun fact about MLB. As you are called upon to generate fun facts, be sure to occasionally include fun facts about rules, games, series, postseason, world series, stats, bizarre occurrences, etc.")
     await interaction.response.send_message(response.text, ephemeral=False)
 
+
+#New Command Ideas:
+#Game Schedule and Scores
+#Player and Team News
+#Fantasy Baseball Integration
+#Game Highlights and Media
+#Trivia + Interactivity
+#Etc.
+
 client.run(DISCORD_TOKEN)
